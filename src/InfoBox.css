@@ -1,0 +1,38 @@
+.info-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-card {
+  width: 380px;
+  border-radius: 16px !important;
+  overflow: hidden;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25) !important;
+  transition: transform 0.3s ease;
+}
+
+.weather-card:hover {
+  transform: translateY(-8px);
+}
+
+.card-media {
+  height: 200px;
+}
+
+.city-name {
+  text-align: center;
+  font-weight: bold !important;
+  margin-bottom: 10px !important;
+}
+
+.icon {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.weather-details {
+  text-align: center;
+  line-height: 1.8;
+  font-size: 16px;
+}
